@@ -1,0 +1,15 @@
+.letter {
+	@apply text-3xl font-bold mx-[1px];
+}
+
+.letter--correct {
+	@apply text-green-500;
+}
+
+.letter--wrong {
+	@apply text-red-500;
+}
+
+.letter--neutral {
+	@apply text-inherit;
+}

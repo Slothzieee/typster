@@ -1,0 +1,15 @@
+body {
+	@apply bg-main m-0 text-white font-sans;
+}
+
+ul {
+	@apply list-none;
+}
+
+h1 {
+	@apply text-orange-500 tracking-widest;
+}
+
+a {
+	@apply no-underline;
+}

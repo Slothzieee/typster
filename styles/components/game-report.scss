@@ -1,0 +1,47 @@
+.game-report {
+	@apply absolute  left-[25%] min-h-[30rem] w-1/2   rounded-lg;
+
+	.game-report__layout {
+		@apply absolute bg-black z-0 rounded-lg w-full h-full opacity-90 shadow-2xl;
+	}
+
+	.game-report__wrapper {
+		@apply z-50 text-white absolute w-full h-full pt-6;
+
+		h2 {
+			@apply text-orange-500;
+		}
+
+		.game-report__info {
+			@apply flex justify-center items-center;
+
+			h3 {
+				@apply w-auto mx-5;
+			}
+		}
+
+		.game-report__guessed {
+			@apply mt-4;
+
+			ul {
+				@apply flex flex-wrap w-3/4 mx-auto;
+
+				li {
+					@apply m-2 p-2 bg-gray-300 text-black rounded-lg shadow-2xl capitalize cursor-pointer;
+
+					&:hover {
+						@apply bg-orange-500;
+					}
+				}
+			}
+		}
+
+		button {
+			@apply bg-orange-500 mt-6 p-2 rounded-lg border-none w-32 shadow-2xl cursor-pointer text-lg uppercase;
+
+			&:hover {
+				@apply text-white;
+			}
+		}
+	}
+}

@@ -1,0 +1,16 @@
+.word-details {
+	@apply w-2/5 mx-auto rounded-xl shadow-xl bg-gray-800 px-16 py-4;
+
+	h1 {
+		@apply capitalize;
+	}
+
+	h3,
+	h4 {
+		@apply text-blue-500 mt-2 my-0;
+	}
+
+	.word-details__meaning__definition {
+		@apply bg-gray-600 p-4 my-4 rounded-lg shadow-xl;
+	}
+}

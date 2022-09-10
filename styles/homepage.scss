@@ -1,0 +1,21 @@
+.homepage {
+	.homepage__game-input {
+		@apply w-44 mx-auto;
+
+		input {
+			@apply w-full rounded-lg border-none h-8 px-2 text-lg;
+		}
+	}
+
+	.homepage__word-display {
+		@apply h-40 w-[20rem] mx-auto flex items-center justify-center rounded-2xl bg-blue-900 my-4;
+	}
+
+	.homepage__main {
+		@apply text-center mt-16;
+	}
+
+	.homepage__game-report {
+		@apply relative;
+	}
+}

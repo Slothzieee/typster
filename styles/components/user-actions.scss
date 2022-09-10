@@ -1,0 +1,13 @@
+.user-actions {
+	img {
+		@apply rounded-full relative;
+	}
+
+	.user-actions__menu {
+		@apply absolute border-red-500 border border-solid px-8;
+
+		p {
+			@apply cursor-pointer;
+		}
+	}
+}

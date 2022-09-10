@@ -1,0 +1,19 @@
+.header {
+	@apply container mx-auto;
+
+	.header__container {
+		.header__nav {
+			ul {
+				@apply flex justify-center items-center p-0;
+
+				li {
+					@apply text-white cursor-pointer font-bold mx-12 p-4 rounded-xl tracking-wider;
+
+					&:hover {
+						@apply bg-orange-500 text-black shadow-2xl;
+					}
+				}
+			}
+		}
+	}
+}

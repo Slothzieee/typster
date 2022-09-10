@@ -1,0 +1,11 @@
+.leaderboard {
+	@apply container mx-auto my-16;
+
+	h1 {
+		@apply text-center;
+	}
+
+	.leaderboard__ranking {
+		@apply w-2/5 mx-auto;
+	}
+}

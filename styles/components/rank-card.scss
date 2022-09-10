@@ -1,0 +1,20 @@
+.rank-card {
+	@apply flex items-center justify-between bg-gray-800 rounded-xl shadow-xl p-4 my-6;
+
+	h3,
+	p {
+		@apply my-0;
+	}
+}
+
+.golden {
+	@apply bg-gold;
+}
+
+.silver {
+	@apply bg-silver;
+}
+
+.bronze {
+	@apply bg-bronze;
+}
