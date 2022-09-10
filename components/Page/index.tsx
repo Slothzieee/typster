@@ -1,5 +1,6 @@
 import Head from '../Head';
 import Header from '../Header';
+import MobileHeader from '../MobileHeader';
 
 interface Props {
 	children: React.ReactNode;
@@ -12,6 +13,7 @@ const Page = ({ children, title, classNames = '' }: Props) => {
 		<>
 			<Head title={title} />
 			<Header />
+			<MobileHeader />
 			<main className={`page ${classNames}`}>{children}</main>
 		</>
 	);

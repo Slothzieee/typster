@@ -6,6 +6,10 @@
 	}
 
 	.leaderboard__ranking {
-		@apply w-2/5 mx-auto;
+		@apply w-4/5 mx-auto;
+
+		@screen md {
+			@apply w-2/5;
+		}
 	}
 }

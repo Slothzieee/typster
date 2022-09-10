@@ -1,10 +1,18 @@
 .header {
-	@apply container mx-auto;
+	@apply container mx-auto hidden;
+
+	@screen md {
+		@apply block;
+	}
 
 	.header__container {
 		.header__nav {
 			ul {
-				@apply flex justify-center items-center p-0;
+				@apply flex flex-col justify-center items-center p-0;
+
+				@screen md {
+					@apply flex-row;
+				}
 
 				li {
 					@apply text-white cursor-pointer font-bold mx-12 p-4 rounded-xl tracking-wider;

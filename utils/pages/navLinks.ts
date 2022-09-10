@@ -1,4 +1,4 @@
-interface NavLink {
+export interface NavLink {
 	title: string;
 	link: string;
 }
@@ -10,7 +10,7 @@ export const navLinks: NavLink[] = [
 	},
 	{
 		title: 'Github',
-		link: '/github',
+		link: 'https://github.com/Slothzieee/typster',
 	},
 	{
 		title: 'Leaderboard',

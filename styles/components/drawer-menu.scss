@@ -1,0 +1,27 @@
+.drawer-menu {
+	@apply absolute left-0 flex  shadow-2xl bg-gray-900 w-full justify-between py-4;
+
+	.drawer-menu__nav {
+		@apply flex flex-col px-6 py-4;
+	}
+
+	a {
+		@apply no-underline text-white text-lg;
+	}
+
+	span {
+		@apply px-4 text-orange-500;
+	}
+
+	p {
+		@apply my-0 text-lg;
+	}
+
+	.drawer-menu__user-actions {
+		@apply mt-12;
+
+		p {
+			@apply text-orange-500;
+		}
+	}
+}

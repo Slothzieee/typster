@@ -1,5 +1,9 @@
 .word-details {
-	@apply w-2/5 mx-auto rounded-xl shadow-xl bg-gray-800 px-16 py-4;
+	@apply w-4/5 mx-auto rounded-xl shadow-xl bg-gray-800 px-4 py-4;
+
+	@screen md {
+		@apply w-2/5 px-16;
+	}
 
 	h1 {
 		@apply capitalize;

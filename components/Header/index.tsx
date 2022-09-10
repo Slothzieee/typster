@@ -1,4 +1,4 @@
-import { navLinks } from './navLinks';
+import { navLinks } from '../../utils/pages/navLinks';
 
 import { signIn, useSession } from 'next-auth/react';
 

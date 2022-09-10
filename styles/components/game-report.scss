@@ -1,5 +1,9 @@
 .game-report {
-	@apply absolute  left-[25%] min-h-[30rem] w-1/2   rounded-lg;
+	@apply absolute left-[10%] min-h-[45rem] w-4/5 rounded-lg;
+
+	@screen md {
+		@apply left-[25%] min-h-[30rem] w-1/2;
+	}
 
 	.game-report__layout {
 		@apply absolute bg-black z-0 rounded-lg w-full h-full opacity-90 shadow-2xl;
@@ -13,7 +17,11 @@
 		}
 
 		.game-report__info {
-			@apply flex justify-center items-center;
+			@apply flex flex-col justify-center items-center;
+
+			@screen md {
+				@apply flex-row;
+			}
 
 			h3 {
 				@apply w-auto mx-5;
@@ -24,7 +32,11 @@
 			@apply mt-4;
 
 			ul {
-				@apply flex flex-wrap w-3/4 mx-auto;
+				@apply p-0 flex flex-wrap w-[90%] mx-auto;
+
+				@screen md {
+					@apply w-3/4;
+				}
 
 				li {
 					@apply m-2 p-2 bg-gray-300 text-black rounded-lg shadow-2xl capitalize cursor-pointer;
