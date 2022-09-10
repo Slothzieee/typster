@@ -28,10 +28,11 @@ const Home: NextPage = () => {
 
 	const handleInputOnChange = (event: any) => {
 		const value = event.target.value;
-		const splittedValue = value.split('');
+		const valueToLowerCase = value.toLowerCase();
+		const splittedValue = valueToLowerCase.split('');
 
 		setCurrentWord(splittedValue);
-		setInputValue(value);
+		setInputValue(valueToLowerCase);
 	};
 
 	const handleInputOnClick = () => {
