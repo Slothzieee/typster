@@ -8,6 +8,8 @@ module.exports = {
 				gold: '#FBC901',
 				silver: '#C0C0C0',
 				bronze: '#CD7F32',
+				secondary: '#F87315',
+				'blue-dark': '#1F398A',
 			},
 		},
 	},

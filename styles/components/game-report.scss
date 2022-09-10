@@ -1,5 +1,5 @@
 .game-report {
-	@apply absolute left-[10%] min-h-[45rem] w-4/5 rounded-lg;
+	@apply absolute left-0 min-h-[45rem] w-full rounded-lg;
 
 	@screen md {
 		@apply left-[25%] min-h-[30rem] w-1/2;
@@ -13,7 +13,7 @@
 		@apply z-50 text-white absolute w-full h-full pt-6;
 
 		h2 {
-			@apply text-orange-500;
+			@apply text-secondary;
 		}
 
 		.game-report__info {
@@ -42,14 +42,14 @@
 					@apply m-2 p-2 bg-gray-300 text-black rounded-lg shadow-2xl capitalize cursor-pointer;
 
 					&:hover {
-						@apply bg-orange-500;
+						@apply bg-secondary;
 					}
 				}
 			}
 		}
 
 		button {
-			@apply bg-orange-500 mt-6 p-2 rounded-lg border-none w-32 shadow-2xl cursor-pointer text-lg uppercase;
+			@apply bg-orange-500 mt-6 text-black p-2 rounded-lg border-none w-32 shadow-2xl cursor-pointer text-lg uppercase;
 
 			&:hover {
 				@apply text-white;
