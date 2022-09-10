@@ -1,4 +1,4 @@
-import { Word, Meaning } from '../../types/word';
+import { Word, Meaning } from './models/word';
 
 interface Props {
 	word: Word;

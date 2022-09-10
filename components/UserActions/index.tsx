@@ -2,7 +2,7 @@ import { useState } from 'react';
 
 import { signOut } from 'next-auth/react';
 
-import User from '../../types/user';
+import User from './models/user';
 
 interface Props {
 	user: User;
