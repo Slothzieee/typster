@@ -1,3 +1,5 @@
+import { NextPage } from 'next';
+
 import useSwr from 'swr';
 import { useRouter } from 'next/router';
 
@@ -6,7 +8,7 @@ import Page from '../../components/Page';
 import fetcher from '../../utils/pages/fetcher';
 import WordDetails from '../../components/WordDetails';
 
-const WordDictionary = () => {
+const WordDictionary: NextPage = () => {
 	const router = useRouter();
 	const { word } = router.query;
 

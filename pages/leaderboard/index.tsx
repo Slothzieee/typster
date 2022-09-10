@@ -1,3 +1,5 @@
+import { NextPage } from 'next';
+
 import Page from '../../components/Page';
 import RankCard from '../../components/RankCard';
 
@@ -9,7 +11,7 @@ interface User {
 	score: number;
 }
 
-const Leaderboard = () => {
+const Leaderboard: NextPage = () => {
 	const { data } = useSwr(`/api/ranking`, fetcher);
 
 	return (
