@@ -2,6 +2,8 @@ import Link from 'next/link';
 
 import { signIn, useSession, signOut } from 'next-auth/react';
 
+import Image from 'next/image';
+
 import { NavLink } from '../../../utils/pages/navLinks';
 
 interface Props {
@@ -29,7 +31,7 @@ const DrawerMenu = ({ menu }: Props) => {
 					</p>
 				) : (
 					<div className="drawer-menu__user-actions">
-						<img
+						<Image
 							height={44}
 							width={44}
 							alt={session.user.name}

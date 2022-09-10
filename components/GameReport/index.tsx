@@ -1,4 +1,4 @@
-import User from '../../types/user';
+import User from '../UserActions/models/user';
 
 interface Props {
 	user: User;
