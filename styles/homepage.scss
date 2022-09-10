@@ -12,7 +12,11 @@
 	}
 
 	.homepage__main {
-		@apply text-center mt-16;
+		@apply text-center mt-16 px-6;
+
+		@scree md {
+			@apply px-0;
+		}
 	}
 
 	.homepage__game-report {

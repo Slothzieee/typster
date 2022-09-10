@@ -11,7 +11,6 @@ export const authOptions = {
 			authorization: {
 				params: {
 					prompt: 'consent',
-					access_type: 'offline',
 					response_type: 'code',
 				},
 			},
