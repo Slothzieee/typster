@@ -82,7 +82,7 @@ const Home: NextPage = () => {
 	}, [currentWord, randomWord]);
 
 	return (
-		<Page title="Fun learn">
+		<Page title="Typster">
 			<div className="homepage">
 				<div className="homepage__main">
 					<h1>TYPSTER</h1>
