@@ -29,10 +29,13 @@ In order to run your project locally you need to add 3 ENVs in your .env.local f
 MONGODB_URI
 GOOGLE_SECRET
 GOOGLE_ID
+SECRET
 
 Create a mongodb atlas cluster, click the voice "connect" ,get the DB url and paste it in your env.
 
 To get your GOOGLE_SECRET and GOOGLE_ID follow the official nextAuth documentation https://next-auth.js.org/providers/google
+
+Your SECRET can be anything, you can generate one by running **openssl rand -hex 16**
 
 ## DB
 
